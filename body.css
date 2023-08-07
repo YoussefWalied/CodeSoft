@@ -1,0 +1,107 @@
+.my-info {
+  font-size: 50px;
+  font-weight: 500;
+  top: 8;
+  line-height: 70px;
+  margin-bottom: 15px;
+  margin-top: 0px;
+}
+
+.cv-info {
+  font-size: 15px;
+  font-family: Arial;
+  color: rgb(118, 118, 118);
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 70px;
+  margin-top: 0px;
+  float: left;
+  word-wrap: break-word;
+  margin-right: 30px;
+  .github-icon,
+  .linkedin-icon,
+  .cv-icon,
+  .facebook-icon {
+  position: absolute;
+  top: 20px;;
+  margin-left: 0px;
+}
+}
+
+.Background {
+  position: relative;
+  top: 40;
+  right: 0;
+  size: 60px;
+  margin-right: 0;
+  padding-right: 0;
+  padding-top: 15px;
+  @media (max-width: 768px) {
+    position: relative;
+    bottom: 0px;
+  }
+}
+
+.Background-picture {
+  size: 60px;
+}
+
+.Background,
+.Background-picture {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.contact-me-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  bottom: 400px;
+}
+
+.contact-me-button:hover {
+  transition: background-color 0.2s, color 0.2s;
+  box-shadow: 0 0 8px rgba(0, 72, 255, 0.405);
+  &:hover .contact-box{
+    display: block;
+  }
+}
+
+.contact-box {
+  width: auto;
+  display: none;
+  position: fixed;
+  bottom: 250px;
+  right:900px;
+  background-color: #007bff;
+  padding: 15px;
+  border: 1px solid #ccc;
+}
+
+.contact-box p {
+  margin-bottom: 10px;
+}
+
+.contact-box span{
+  color: white;
+}
+#contact-toggle{
+  display: none;
+}
+
+#contact-toggle:checked~.contact-box{
+  display: block;
+}
+
+
+.phone-text{
+  margin-top: 15px;
+  padding: 10px;
+}
+.email-text{
+  margin-top: 30px;
+ 
+}

@@ -1,0 +1,23 @@
+.skills-button,
+.certificat-button,
+.projects-button {
+  background-color: rgb(34, 126, 255);
+  color: whitesmoke;
+  border-style: solid;
+  border: 1px;
+  border-color: rgb(219, 233, 255);
+  height: 36px;
+  width: auto;
+  padding: 10px 20px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-top: 18px;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.skills-button:hover,
+.certificat-button:hover,
+.projects-button:hover {
+  box-shadow: 0 0 8px rgba(0, 72, 255, 0.405);
+}
+

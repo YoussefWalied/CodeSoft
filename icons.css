@@ -1,0 +1,71 @@
+/*.Icons {
+  top: 550px;
+  left: 50px;
+}
+*/
+.github-icon,
+.linkedin-icon,
+.cv-icon,
+.facebook-icon {
+  font-family: Arial;
+  font-weight: 900;
+  color: #000;
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  position: absolute;
+  top: 155px;
+  text-align: center;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.github-icon {
+  left: 65px;
+  width: 50px;
+  border-radius: 100%;
+}
+.linkedin-icon {
+  left: 110px;
+  width: 60px;
+  border-radius: 70%;
+}
+.cv-icon {
+  left: 155px;
+  width: 50px;
+  border-radius: 100%;
+}
+.facebook-icon {
+  left: 200px;
+  width: 50px;
+  border-radius: 100%;
+}
+
+.github-icon:hover,
+.linkedin-icon:hover,
+.cv-icon:hover,
+.facebook-icon:hover {
+  box-shadow: 0 0 8px rgba(123, 123, 123, 0.14);
+}
+.github-icon-text,
+.linkedin-icon-text,
+.cv-icon-text,
+.facebook-icon-text {
+  margin-top: 8px;
+  font-size: 10px;
+  color: #000000;
+}
+
+.github-icon a,
+.linkedin-icon a,
+.cv-icon a,
+.facebook-icon a {
+  text-decoration: none;
+  color: #000;
+}
+.github-icon a:hover,
+.linkedin-icon a:hover,
+.cv-icon a:hover,
+.facebook-icon a:hover {
+  color: #333;
+}
